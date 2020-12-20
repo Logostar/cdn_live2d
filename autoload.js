@@ -1,8 +1,8 @@
 // 注意：live2d_path 参数应使用绝对路径，记得修改哦
-//const live2d_path = "https://cdn.jsdelivr.net/gh/Time-litwhite/cdn/live2d/";
-//const tips_path = "https://cdn.jsdelivr.net/gh/Time-litwhite/cdn/live2d/";
-const live2d_path = "";
-const live2d_path = "/Vincent-Pro/live2d-widget/";
+const live2d_path = "https://cdn.jsdelivr.net/gh/Logostar/live2d-widget/";
+const tips_path = "https://cdn.jsdelivr.net/gh/Logostar/live2d-widget/";
+//const live2d_path = "";
+//const live2d_path = "/Vincent-Pro/live2d-widget/";
 
 // 封装异步加载资源的方法
 function loadExternalResource(url, type) {
@@ -34,7 +34,7 @@ function loadExternalResource(url, type) {
 	]).then(() => {
 		initWidget({
 			waifuPath: tips_path + "waifu-tips.min.json",
-			apiPath: "https://cdn.jsdelivr.net/gh/Time-litwhite/cdn/live2d_api/",
+			apiPath: "https://cdn.jsdelivr.net/gh/Logostar/live2d_api/",
 			//cdnPath: "https://你的对象存储域名/live2d_api/"
 		});
 	});
