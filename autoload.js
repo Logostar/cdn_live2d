@@ -1,6 +1,6 @@
 // 注意：live2d_path 参数应使用绝对路径，记得修改哦
-const live2d_path = "https://cdn.jsdelivr.net/gh/Logostar/live2d-widget@1.0.4/";
-const tips_path = "https://cdn.jsdelivr.net/gh/Logostar/live2d-widget@1.0.4/";
+const live2d_path = "https://cdn.jsdelivr.net/gh/Logostar/live2d-widget@1.0.5/";
+const tips_path = "https://cdn.jsdelivr.net/gh/Logostar/live2d-widget@1.0.5/";
 //const live2d_path = "";
 //const live2d_path = "/Vincent-Pro/live2d-widget/";
 
@@ -34,8 +34,8 @@ function loadExternalResource(url, type) {
 	]).then(() => {
 		initWidget({
 			waifuPath: tips_path + "waifu-tips.min.json",
-			apiPath: "https://cdn.jsdelivr.net/gh/Logostar/live2d_api@1.0.3/",
-			//cdnPath: "https://你的对象存储域名/live2d_api/"
+			//apiPath: "https://cdn.jsdelivr.net/gh/Logostar/live2d_api@1.0.3/",
+			cdnPath: "https://cdn-page-1304568277.cos.ap-chengdu.myqcloud.com/live2d_api/"
 		});
 	});
 console.log(`
